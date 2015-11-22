@@ -1,7 +1,7 @@
 
 library(shiny)
 
-data <- read.csv("consumption.csv", sep=",", header=T)
+data <- read.csv("subscription.csv", sep=",", header=T)
 colnames(data)[2] <- "Print"
 colnames(data)[3] <- "Online"
 colnames(data)[4] <- "Print n Online"
